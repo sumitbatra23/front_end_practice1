@@ -1,0 +1,155 @@
+ /* Sorry for hardcoding this sample. I was a beginner when I worked on this one*/
+
+
+		#container1{
+			background-color: grey;
+			width:100%;
+			height: 200px;
+			margin: 0;
+			transform-style: preserve-3d;
+			transition: all 1s ease;
+			font-size: 25px;
+			font-weight: bold;
+			font-family: serif;
+			position: absolute;
+			top:0px;
+			left:0px;
+			color: Orange;
+		
+		}
+
+		#container1:hover{
+				transform: rotateY(180deg);
+				background-color: orange;
+				color: white;
+		}
+
+	
+		#back{
+			transform: rotatey(180deg);
+		}
+
+		#front, #back{
+			backface-visibility: hidden;
+			text-align: center;
+			margin: auto;
+		}
+	
+#container2{
+			background-color: grey;
+			width:100%;
+			height: 200px;
+			margin: 0;
+			transform-style: preserve-3d;
+			transition: all 1s ease;
+			font-size: 25px;
+			font-weight: bold;
+			font-family: serif;
+			color:darkviolet;
+		}
+
+		#container2:hover{
+				transform: rotateY(180deg);
+				background-color: blueviolet;
+				color: white;
+		}
+
+#container3{
+			background-color: grey;
+			width:100%;
+			height: 200px;
+			margin: 0;
+			transform-style: preserve-3d;
+			transition: all 1s ease;
+			font-size: 25px;
+			font-weight: bold;
+			font-family: serif;
+			color:chocolate;
+		}
+
+		#container3:hover{
+				transform: rotateY(180deg);
+				background-color: chocolate;
+				color: white;}
+
+#container4{
+			color: dodgerblue;
+			background-color: grey;
+			width:100%;
+			height: 200px;
+			margin: 0;
+			transform-style: preserve-3d;
+			transition: all 1s ease;
+			font-size: 25px;
+			font-weight: bold;
+			font-family: serif;
+		}
+
+		#container4:hover{
+				transform: rotateY(180deg);
+				background-color: dodgerblue;
+				color: white;
+		}
+
+#container5{
+			color: forestgreen;
+			background-color: grey;
+			width:100%;
+			height: 200px;
+			margin: 0;
+			transform-style: preserve-3d;
+			transition: all 1s ease;
+			font-size: 25px;
+			font-weight: bold;
+			font-family: serif;
+		}
+
+		#container5:hover{
+				transform: rotateY(180deg);
+				background-color: forestgreen;
+				color: white;
+		}
+
+#container6{
+			color: goldenrod;
+			background-color: grey;
+			width:100%;
+			height: 200px;
+			margin: 0;
+			transform-style: preserve-3d;
+			transition: all 1s ease;
+			font-size: 25px;
+			font-weight: bold;
+			font-family: serif;
+		}
+
+		#container6:hover{
+				transform: rotateY(180deg);
+				background-color: goldenrod;
+				color: white;
+		}
+
+#container7{
+			color:lightsalmon;
+			background-color: grey;
+			width:100%;
+			height: 200px;
+			margin: 0;
+			transform-style: preserve-3d;
+			transition: all 1s ease;
+			font-size: 25px;
+			font-weight: bold;
+			font-family: serif;
+		}
+
+		#container7:hover{
+				transform: rotateY(180deg);
+				background-color: lightsalmon;
+				color: black;
+		}
+
+
+		html, body{
+			margin: 0;
+			padding: 0; 
+		}

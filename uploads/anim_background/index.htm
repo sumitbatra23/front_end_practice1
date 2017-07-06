@@ -1,0 +1,49 @@
+<html>
+<body>
+<style>@keyframes scroll {
+  from {
+    left: 0px;
+  }
+  50% {
+    left: -320px;
+  }
+  to {
+    left: -640px;
+  }
+}
+
+div {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background-repeat: repeat-x;
+}
+
+div#back {
+  -webkit-animation: scroll 30s infinite linear;
+  background-image: url(back.png);
+}
+
+div#middle {
+  -webkit-animation: scroll 15s infinite linear;
+  background-image: url(middle.png);
+}
+
+div#front {
+  -webkit-animation: scroll 7s infinite linear;
+  background-image: url(front.png);
+}
+
+body {
+  background: #BC9447;
+}</style></head>
+<body>
+<div id="back">
+</div>
+<div id="middle">
+</div>
+<div id="front">
+</div>
+</body>
+</html>
